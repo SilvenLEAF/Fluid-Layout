@@ -14,11 +14,21 @@ body{
      height: 90px;
 }
 
-#navbar{
-     background-color: #5c755e;
-     margin: 10px;     /*this is called gutter and it seperates the elements (divs)*/
-     height: 35px;
+/* ***************
+NAVBAR SECTION
+*************** */
+#navbar ul{
+     padding: 5px;
+     list-style-type: none;
+     text-align: center;
+     background-color: #000;
+     margin: 10px;
 }
+
+#navbar ul li{
+     display: inline;
+}
+
 /* in both the HEADER and NAVBAR we used height, but did not use width,
   because we want our website to be fluid (responsive)(any kind of device) */
 
