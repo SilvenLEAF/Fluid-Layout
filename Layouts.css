@@ -114,8 +114,40 @@ FOOTER SECTION
      margin: 10px;       /*this is called gutter and it seperates the elements (divs)*/
      height: 60px;
      clear: both;      /*it protects footer from the penetration of  side-bar*/
+
+     color: #efe5d0;
+     text-align: center;
+     padding: 15px;
+     font-size: 90%;
 }
 
+/* FOOTER BUTTONS */
+#footer ul{
+     padding: 5px;
+     list-style-type: none;
+     text-align: center;
+     margin: 10px;
+}
+
+#footer ul li{
+     display: inline;
+}
+
+
+#footer ul li a{
+     text-decoration: none;
+     font-family: Arial;
+     padding: .2em 1em;
+
+     background-color: #5c755e;
+     color: #fff;
+}
+
+#footer ul li a:hover{
+     color: #000;
+     background-color: #fff;
+     /* in most websites these days, this reversed color method is used */
+}
 
 /* **************************
  HEADINGS STYLES SECTION
@@ -137,10 +169,10 @@ h3{
      margin: 0px;
      font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
 
-/* the following 5 rules will always vertically align the element */
      position: relative;
      top: 50%;
      -webkit-transform: translateY(-50%);
      -ms-transform: translateY(-50%);
      transform: translateY(-50%);
+     /* the previous 5 rules will always vertically align the element */
 }
