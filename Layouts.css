@@ -70,3 +70,18 @@ SIDE-RIGHT (SIDE-BAR)
 
     clear: right;          /*to float SIDE-BARS top to bottom*/
 }
+
+/* ****************
+IMAGE (SIDE-BAR)
+**************** */
+.image-sidebar{
+    margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
+    margin-top: 0px;      /*written after MARGIN*/
+
+    float: right;
+    width: 300px;
+    /* if you use float, you must give a width or it will not work */
+    /* side-bar is NOT liquid (fluid) */
+
+    clear: right;          /*to float SIDE-BARS top to bottom*/
+}
