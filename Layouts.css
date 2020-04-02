@@ -67,4 +67,6 @@ SIDE-RIGHT (SIDE-BAR)
     width: 260px;
     /* if you use float, you must give a width or it will not work */
     /* side-bar is NOT liquid (fluid) */
+
+    clear: right;          /*to float SIDE-BARS top to bottom*/
 }
