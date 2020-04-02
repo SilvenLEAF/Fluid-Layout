@@ -28,7 +28,10 @@ body{
   *************************************** */
   .main{
        background-color: #e5e4d7;
-       margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
+       margin-left: 10px;  /*this is called gutter and it seperates the elements (divs)*/
+       margin-right: 320px;  /*side-right: 260 (width)+20x2(padding)+10x2(margin)*/
+       margin-top: 10px;
+       margin-bottom: 10px;
        padding: 20px;
        font-size: 110%;       /*100%=14px; 110%=10% increased from 14px*/
   }
@@ -43,4 +46,25 @@ body{
 h1{
      font-size: 120%;
      color: #ce282e;
+}
+
+h2{
+     font-size: 120%;
+     color: darkblue;
+}
+
+/* ********************
+SIDE-RIGHT (SIDE-BAR)
+******************** */
+.side-right{
+    background-color: #e5e4d7;
+    margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
+    margin-top: 0px;      /*written after MARGIN*/
+    padding: 20px;
+    font-size: 105%;
+
+    float: right;
+    width: 260px;
+    /* if you use float, you must give a width or it will not work */
+    /* side-bar is NOT liquid (fluid) */
 }
