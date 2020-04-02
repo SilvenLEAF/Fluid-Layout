@@ -84,4 +84,10 @@ IMAGE (SIDE-BAR)
     /* side-bar is NOT liquid (fluid) */
 
     clear: right;          /*to float SIDE-BARS top to bottom*/
+    opacity: 1;
+    transition: 0.5s ease;
+}
+
+.image-sidebar:hover{
+     opacity: 0.6;
 }
