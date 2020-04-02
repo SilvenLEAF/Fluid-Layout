@@ -23,9 +23,9 @@ body{
   because we want our website to be fluid (responsive)(any kind of device) */
 
 
-  /* **************************************
+  /* ********************************
   Designing the layout of the main section
-  *************************************** */
+  ******************************** */
   .main{
        background-color: #e5e4d7;
        margin-left: 10px;  /*this is called gutter and it seperates the elements (divs)*/
@@ -43,6 +43,7 @@ body{
     header and navbar because we do not want them to be distorted*/
 
 
+/* HEADINGS STYLES */
 h1{
      font-size: 120%;
      color: #ce282e;
@@ -53,9 +54,9 @@ h2{
      color: darkblue;
 }
 
-/* ********************
-SIDE-RIGHT (SIDE-BAR)
-******************** */
+/* *****************************
+SIDE-RIGHT (SIDE-BAR) SECTION
+***************************** */
 .side-right{
     background-color: #e5e4d7;
     margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
@@ -71,9 +72,7 @@ SIDE-RIGHT (SIDE-BAR)
     clear: right;          /*to float SIDE-BARS top to bottom*/
 }
 
-/* ****************
-IMAGE (SIDE-BAR)
-**************** */
+/* IMAGE (SIDE-BAR) */
 .image-sidebar{
     margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
     margin-top: 0px;      /*written after MARGIN*/
@@ -90,4 +89,15 @@ IMAGE (SIDE-BAR)
 
 .image-sidebar:hover{
      opacity: 0.6;
+}
+
+
+/* ****************
+FOOTER SECTION
+**************** */
+#footer{
+     background-color: #5c755e;
+     margin: 10px;       /*this is called gutter and it seperates the elements (divs)*/
+     height: 60px;
+     clear: both;      /*it protects footer from the penetration of  side-bar*/
 }
