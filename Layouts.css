@@ -1,6 +1,23 @@
+/* **************************************
+Designing the layout of body, header and navbar
+*************************************** */
 body{
      background-color: #9c9f84;
      margin: 0px;
      font-family: Verdana, Georgia, serif;
      font-size: 14px;
 }
+
+#header{
+     background-color: #5c755e;
+     margin: 10px;       /*this is called gutter and it seperates the elements (divs)*/
+     height: 90px;
+}
+
+#navbar{
+     background-color: #5c755e;
+     margin: 10px;     /*this is called gutter and it seperates the elements (divs)*/
+     height: 35px;
+}
+/* in both the HEADER and NAVBAR we used height, but did not use width,
+  because we want our website to be fluid (responsive)(any kind of device) */
