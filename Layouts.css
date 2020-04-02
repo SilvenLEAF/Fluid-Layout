@@ -29,6 +29,22 @@ NAVBAR SECTION
      display: inline;
 }
 
+
+#navbar ul li a{
+     text-decoration: none;
+     font-family: Arial;
+     padding: .2em 1em;
+
+     background-color: #000;
+     color: #fff;
+
+}
+
+#navbar ul li a:hover{
+     color: #000;
+     background-color: #fff;
+     /* in most websites these days, this reversed color method is used */
+}
 /* in both the HEADER and NAVBAR we used height, but did not use width,
   because we want our website to be fluid (responsive)(any kind of device) */
 
