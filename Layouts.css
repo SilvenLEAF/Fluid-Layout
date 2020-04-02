@@ -68,18 +68,6 @@ NAVBAR SECTION
     because we want it to be fluid; but we used only height for our
     header and navbar because we do not want them to be distorted*/
 
-
-/* HEADINGS STYLES */
-h1{
-     font-size: 120%;
-     color: #ce282e;
-}
-
-h2{
-     font-size: 120%;
-     color: darkblue;
-}
-
 /* *****************************
 SIDE-RIGHT (SIDE-BAR) SECTION
 ***************************** */
@@ -126,4 +114,33 @@ FOOTER SECTION
      margin: 10px;       /*this is called gutter and it seperates the elements (divs)*/
      height: 60px;
      clear: both;      /*it protects footer from the penetration of  side-bar*/
+}
+
+
+/* **************************
+ HEADINGS STYLES SECTION
+ ************************* */
+h1{
+     font-size: 120%;
+     color: #ce282e;
+}
+
+h2{
+     font-size: 120%;
+     color: darkblue;
+}
+
+h3{
+     font-size: 250%;
+     text-align: center;
+     color: #e5e4d7;
+     margin: 0px;
+     font-family: "Century Gothic", "Gill Sans", Arial, sans-serif;
+
+/* the following 5 rules will always vertically align the element */
+     position: relative;
+     top: 50%;
+     -webkit-transform: translateY(-50%);
+     -ms-transform: translateY(-50%);
+     transform: translateY(-50%);
 }
