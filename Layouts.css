@@ -21,3 +21,26 @@ body{
 }
 /* in both the HEADER and NAVBAR we used height, but did not use width,
   because we want our website to be fluid (responsive)(any kind of device) */
+
+
+  /* **************************************
+  Designing the layout of the main section
+  *************************************** */
+  .main{
+       background-color: #e5e4d7;
+       margin: 10px;  /*this is called gutter and it seperates the elements (divs)*/
+       padding: 20px;
+       font-size: 110%;       /*100%=14px; 110%=10% increased from 14px*/
+  }
+  /* we used a CLASS for this main section because we will be using it
+    for almost all the main sections of our websites (multi-pages) */
+
+    /* we DO NOT SET Height and Width for our main sections,
+    because we want it to be fluid; but we used only height for our
+    header and navbar because we do not want them to be distorted*/
+
+
+h1{
+     font-size: 120%;
+     color: #ce282e;
+}
