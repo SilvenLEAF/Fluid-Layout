@@ -5,7 +5,7 @@ body{
      background-color: #9c9f84;
      margin: 0px;
      font-family: Verdana, Georgia, serif;
-     font-size: 14px;
+     font-size: 16px;
      box-sizing: border-box;
 }
 
@@ -155,17 +155,17 @@ FOOTER SECTION
  HEADINGS AND PARAS
  ************************* */
 h1{
-     font-size: 120%;
+     font-size: 110%;
      color: #ce282e;
 }
 
 h2{
-     font-size: 120%;
+     font-size: 110%;
      color: darkblue;
 }
 
 h3{
-     font-size: 250%;
+     font-size: 240%;
      text-align: center;
      color: #e5e4d7;
      margin: 0px;
