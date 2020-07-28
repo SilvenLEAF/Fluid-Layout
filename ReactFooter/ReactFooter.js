@@ -7,11 +7,11 @@ function Footer(props) {
       <div className="container">
         <h6 className= "center white-text lighten-5">Developed by SilvenLEAF</h6>
       
-        <div class="my-social-icons-holder">
+        <div className="my-social-icons-holder">
 
-              <span class="my-social-icon"><i class="fa fa-github"></i></span>
-              <span class="my-social-icon"><i class="fa fa-instagram"></i></span>
-              <span class="my-social-icon"><i class="fa fa-youtube-play"></i></span>
+              <span className="my-social-icon"><i className="fa fa-github"></i></span>
+              <span className="my-social-icon"><i className="fa fa-instagram"></i></span>
+              <span className="my-social-icon"><i className="fa fa-youtube-play"></i></span>
 
         </div>
 
