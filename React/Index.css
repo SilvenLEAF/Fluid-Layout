@@ -1,17 +1,18 @@
-/* -----------------------------------
-.         1) Hamburger
-.         2) Footer
------------------------------------ */
 
 @import url('https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&display=swap');
-
-
 
 :root{
   --footerHeight: 120px;
   --footerWrapperBottomMargin: -120px;
   --navFooterBG: red;
 }
+
+
+/* -----------------------------------
+.         1) Hamburger
+.         2) Footer
+----------------------------------- */
+
 
 body{  
   margin: 0;
