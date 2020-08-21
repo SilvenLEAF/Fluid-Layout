@@ -21,6 +21,30 @@ body{
   font-family: Dosis, Verdana, Geneva, Tahoma, sans-serif;
   font-size: 14px;
 }
+
+/* ------------------------------------
+.              HAMBURGER
+------------------------------------ */
+.sidenav-trigger{
+  position: relative;
+  top: 10px;
+  cursor: pointer;
+}
+.sidenav-trigger > div {
+  width: 45px;    
+  height: 5px;
+  margin: 7px;
+  background-color: #fff;
+  border-radius: 30px;
+}
+
+
+
+
+
+/* ------------------------------------
+.           NAV AND FOOTER
+------------------------------------ */
 nav.nav-wrapper, #footer{
   background-color: var(--navFooterBG);
 }
@@ -29,7 +53,7 @@ nav.nav-wrapper, #footer{
 
 
 /* ------------------------------------
-.               FOOTER
+.            STICKY FOOTER
 ------------------------------------ */
 #wrapper{
   min-height: 100vh;
@@ -49,21 +73,7 @@ nav.nav-wrapper, #footer{
 
 
 
-/* ------------------------------------
-.              HAMBURGER
------------------------------------- */
-.sidenav-trigger{
-  position: relative;
-  top: 10px;
-  cursor: pointer;
-}
-.sidenav-trigger > div {
-  width: 45px;    
-  height: 5px;
-  margin: 7px;
-  background-color: #fff;
-  border-radius: 30px;
-}
+
 
 /* ------------------------------------
 .              FOOTER
